@@ -1,0 +1,88 @@
+name: chay-luot
+on:
+  schedule:
+    - cron: '23 */3 * * *'      # 8 lượt/ngày (giờ UTC)
+  workflow_dispatch:             # bấm tay: tab Actions → chay-luot → Run workflow
+permissions:
+  contents: write
+concurrency:
+  group: aiauto
+  cancel-in-progress: false
+
+jobs:
+  luot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Cài công cụ
+        run: |
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          npm install -g @google/gemini-cli
+      - name: Chạy một lượt
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AGENT: gemini
+          HAN: '2400'
+          VONG_TOI_DA: '2'
+          VI_CHINH_SACH: chinh-sach-github.json
+          KHOA_LUOT: /tmp/aiauto-khoa
+          HOOK_TRUOC_AGENT: python3 cong-cu/bao-ve-so.py chup
+          HOOK_SAU_AGENT: python3 cong-cu/bao-ve-so.py doi-chieu && bash github/bao-ve-tep.sh
+        run: bash chay-luot.sh
+      - name: In nhật ký lượt (để thầy đọc trong tab Actions)
+        if: always()
+        run: cat nhat-ky/*.log 2>/dev/null || true
+      - name: Lưu kết quả vào repo
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          git config user.name "ai-kiem-tien-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add -A kinh-doanh ra
+          [ -f du-lieu/so-cai.db ] && git add -f du-lieu/so-cai.db
+          if [ ${#GEMINI_API_KEY} -ge 8 ] && git diff --cached | grep -qF -- "$GEMINI_API_KEY"; then
+            echo "KHOÁ LỘ trong thay đổi sắp commit — dừng"; exit 1
+          fi
+          git commit -m "lượt $(date -u '+%F %H:%M') UTC" || { echo "không có gì mới"; exit 0; }
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+      - name: Gói bài đăng (video) để thầy tải về
+        uses: actions/upload-artifact@v4
+        with:
+          name: goi-bai-dang-${{ github.run_number }}
+          path: ra/cho-dang
+          retention-days: 14
+          if-no-files-found: ignore
+
+  trang:
+    needs: luot
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}      # lấy commit mới nhất mà job trước vừa đẩy lên
+      - name: Dựng trang donate + nhật ký
+        env:
+          TAI_KHOAN_NHAN: ${{ secrets.TAI_KHOAN_NHAN }}
+        run: |
+          printf '%s' "$TAI_KHOAN_NHAN" > thay-cap/tai-khoan-nhan.json
+          python3 cong-cu/dung-trang.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Đăng lên Cloudflare Pages (địa chỉ giữ kín, không in ra log công khai)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CF_PROJECT: ${{ secrets.CF_PROJECT }}
+        run: |
+          # log của repo công khai ai cũng đọc được, nên không in kết quả (có địa chỉ trang)
+          npx --yes wrangler@3 pages project create "$CF_PROJECT" --production-branch main >/dev/null 2>&1 || true
+          npx --yes wrangler@3 pages deploy web --project-name "$CF_PROJECT" --branch main --commit-dirty=true >/dev/null 2>&1 \
+            && echo "đã đăng trang" || { echo "ĐĂNG TRANG LỖI (kiểm tra 3 secret Cloudflare)"; exit 1; }
