@@ -1,0 +1,15 @@
+{
+  "_ghi_chu": "Chinh sach cua thay Thanh. Agent KHONG duoc sua (khoa bang khoa-tep.sh). Du an nay khong co von: agent khong chi dong nao. Han muc la QUOTA MIEN PHI moi ngay.",
+  "von_khoi_tao": 0,
+  "chi_tieu_tien": 0,
+  "han_muc_ngay": {
+    "gemini": 900,
+    "san-pham": 5,
+    "video": 3,
+    "bai-dang": 12
+  },
+  "nguong": { "tiet_kiem": 0.70, "dung": 0.90 },
+  "uoc_tinh_moi_vong": 40,
+  "ngay_khong_thu_phai_ra_soat": 14,
+  "ghi_chu_gemini": "Gemini CLI dang nhap Google ca nhan: toi da 1000 luot goi/ngay, 60/phut (tai lieu Google). Dat 900 de chua dau."
+}

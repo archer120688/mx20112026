@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>vn.aiauto.thanh</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>/ĐƯỜNG/DẪN/ai-kiem-tien-thanh/chay-luot.sh</string>
+	</array>
+	<key>StartInterval</key>
+	<integer>3600</integer>
+	<key>StandardErrorPath</key>
+	<string>/tmp/aiauto-thanh.log</string>
+	<key>StandardOutPath</key>
+	<string>/tmp/aiauto-thanh.log</string>
+</dict>
+</plist>
