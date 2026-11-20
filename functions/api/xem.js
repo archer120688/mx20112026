@@ -3,6 +3,11 @@
 const json = (o, s = 200) =>
   new Response(JSON.stringify(o), { status: s, headers: { "content-type": "application/json", "cache-control": "no-store" } });
 
+// Chẩn đoán: mở /api/xem bằng trình duyệt. Thấy {"ham":"co","kv":true} là đủ; kv:false là chưa gắn KV XEM.
+export async function onRequestGet({ env }) {
+  return json({ ham: "co", kv: !!env.XEM });
+}
+
 export async function onRequestPost({ request, env }) {
   if (!env.XEM) return json({ loi: "chua gan KV XEM" }, 503);
   let id = "";
