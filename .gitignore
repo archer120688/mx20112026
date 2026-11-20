@@ -1,0 +1,10 @@
+du-lieu/
+nhat-ky/
+DUNG
+cau-hinh.env
+*.db
+.DS_Store
+__pycache__/
+ra/cho-dang/*/*/*.mp4
+ra/cho-dang/*/*/_tam/
+thay-cap/tai-khoan-nhan.json
