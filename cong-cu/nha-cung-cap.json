@@ -1,0 +1,45 @@
+{
+  "_ghi_chu": "Thứ tự thử AI. Dịch vụ nào chưa có khoá (biến môi trường khoa_env) thì tự bỏ qua. Tên model đổi theo thời gian: sửa ở đây hoặc đặt biến môi trường models_env (cách nhau bằng dấu phẩy) mà không cần sửa mã. Model nào lỗi thì tự thử model kế tiếp.",
+  "thu_tu": ["gemini", "github", "groq", "openrouter", "mistral", "anthropic"],
+  "gemini": {
+    "loai": "gemini",
+    "khoa_env": "GEMINI_API_KEY",
+    "models_env": "GEMINI_MODELS",
+    "models": ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.1-flash-lite"],
+    "tim_kiem": true
+  },
+  "github": {
+    "loai": "openai",
+    "url": "https://models.github.ai/inference/chat/completions",
+    "khoa_env": "GITHUB_MODELS_TOKEN",
+    "models_env": "GITHUB_MODELS",
+    "models": ["openai/gpt-4.1", "openai/gpt-4.1-mini"]
+  },
+  "groq": {
+    "loai": "openai",
+    "url": "https://api.groq.com/openai/v1/chat/completions",
+    "khoa_env": "GROQ_API_KEY",
+    "models_env": "GROQ_MODELS",
+    "models": ["llama-3.3-70b-versatile"]
+  },
+  "openrouter": {
+    "loai": "openai",
+    "url": "https://openrouter.ai/api/v1/chat/completions",
+    "khoa_env": "OPENROUTER_API_KEY",
+    "models_env": "OPENROUTER_MODELS",
+    "models": ["openrouter/free", "meta-llama/llama-3.3-70b-instruct:free"]
+  },
+  "mistral": {
+    "loai": "openai",
+    "url": "https://api.mistral.ai/v1/chat/completions",
+    "khoa_env": "MISTRAL_API_KEY",
+    "models_env": "MISTRAL_MODELS",
+    "models": ["mistral-small-latest"]
+  },
+  "anthropic": {
+    "loai": "anthropic",
+    "khoa_env": "ANTHROPIC_API_KEY",
+    "models_env": "ANTHROPIC_MODELS",
+    "models": ["claude-haiku-5-5"]
+  }
+}
