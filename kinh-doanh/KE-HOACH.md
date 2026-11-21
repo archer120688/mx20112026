@@ -2,7 +2,8 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (máy tự cập nhật sau mỗi lượt: việc mới cần thầy)
+- (01:56 22/11) Thầy mở Shopee Affiliate, tạo 5 link tiếp thị cho các từ khoá: (1) keo vá tường, (2) băng keo chống thấm nhôm, (3) bút thử điện không tiếp xúc, (4) bộ vít đa năng, (5) dây thông cống lò xo.
+- (01:56 22/11) Thầy thay 5 mã [LINK] trong bài viết ở phần san_pham rồi đăng bài lên trang cá nhân hoặc Fanpage (mất khoảng 7-10 phút).
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
@@ -14,7 +15,7 @@ Việc cố định:
 
 ## Hướng đang đi
 <!-- AUTO:HUONG:BAT-DAU -->
-- (máy tự ghi sau lượt đầu tiên: thí nghiệm đang thử, đo bằng số nào)
+- (2026-11-22) Thí nghiệm: Đăng bài tuyển chọn 5 món DIY sửa nhà hạt dẻ trước Black Friday. Việc cụ thể: Viết hoàn chỉnh một bài đăng chia sẻ mẹo tự sửa đồ và giới thiệu 5 món đồ gia dụng nhỏ kèm vị trí [LINK] để thầy dán link tiếp thị liên kết Shopee.. Đo bằng: Số lượt click vào link affiliate hoặc số lượt tương tác bài viết (kỳ vọng ≥ 5 lượt bấm)
 <!-- AUTO:HUONG:KET-THUC -->
 
 Thầy Thành giao hai việc làm điểm xuất phát. Làm video không bắt buộc. Agent được nghĩ ra hướng thứ ba, thứ tư, miễn hợp pháp và miễn phí.
