@@ -1,9 +1,17 @@
 {
-  "_ghi_chu": "Chinh sach rieng cho GitHub Actions (VI_CHINH_SACH). Khoa API mien phi: khoang 250 luot/ngay, chi model Flash. Agent KHONG duoc sua.",
+  "_ghi_chu": "Chinh sach rieng cho GitHub Actions (VI_CHINH_SACH). Khoa 'gemini' nay dem MOI luot goi AI (moi nha cung cap), moi luot chay ~2-4 lan goi, 4 luot/ngay. Agent KHONG duoc sua.",
   "von_khoi_tao": 0,
   "chi_tieu_tien": 0,
-  "han_muc_ngay": { "gemini": 220, "san-pham": 5, "video": 3, "bai-dang": 12 },
-  "nguong": { "tiet_kiem": 0.70, "dung": 0.90 },
+  "han_muc_ngay": {
+    "gemini": 60,
+    "san-pham": 5,
+    "video": 3,
+    "bai-dang": 12
+  },
+  "nguong": {
+    "tiet_kiem": 0.7,
+    "dung": 0.9
+  },
   "uoc_tinh_moi_vong": 25,
   "ngay_khong_thu_phai_ra_soat": 14
 }
