@@ -4,7 +4,7 @@
 export PATH=/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH
 cd "$(dirname "$0")" || exit 1
 [[ -f ./cau-hinh.env ]] && source ./cau-hinh.env
-AGENT=${AGENT:-gemini}              # gemini | lenh (lệnh tuỳ chọn trong LENH_AGENT, đọc lời nhắc từ stdin)
+AGENT=${AGENT:-api}                 # api (mặc định: code điều khiển, cong-cu/luot-ngay.py) | gemini (agent CLI cũ) | lenh (lệnh tuỳ chọn trong LENH_AGENT, đọc lời nhắc từ stdin)
 HAN=${HAN:-5400}                    # tối đa 90 phút mỗi lượt
 VONG_TOI_DA=${VONG_TOI_DA:-3}
 UOC=$(python3 -c 'import json,os;print(json.load(open(os.environ.get("VI_CHINH_SACH","chinh-sach.json")))["uoc_tinh_moi_vong"])')
@@ -39,6 +39,17 @@ goi_agent() {
     *)      echo "AGENT không hợp lệ: $AGENT" >&2; return 1 ;;
   esac
 }
+
+if [[ "$AGENT" == "api" ]]; then
+  # Cách mới: 1–3 lần gọi API, AI trả JSON, chương trình tự ghi nhật ký/ý tưởng/sản phẩm (xem cong-cu/luot-ngay.py)
+  [[ -n "${HOOK_TRUOC_AGENT:-}" ]] && bash -c "$HOOK_TRUOC_AGENT" >> "$NK" 2>&1
+  timeout "${HAN_API:-1500}" python3 cong-cu/luot-ngay.py >> "$NK" 2>&1 || log "luot-ngay.py thoát lỗi hoặc quá giờ."
+  [[ -n "${HOOK_SAU_AGENT:-}" ]] && bash -c "$HOOK_SAU_AGENT" >> "$NK" 2>&1
+  python3 kinh-doanh/kiem-bang-viec.py >> "$NK" 2>&1 || true
+  python3 cong-cu/dung-trang.py >> "$NK" 2>&1 || true
+  log "hết lượt (api)."
+  exit 0
+fi
 
 BAT_DAU=$(date +%s)
 for VONG in $(seq 1 "$VONG_TOI_DA"); do
