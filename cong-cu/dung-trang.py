@@ -152,9 +152,9 @@ details{background:var(--card);border:1px solid var(--bd);border-radius:12px;pad
 var D={{DATA}};
 var T={ngu:["Ngủ (chờ lượt sau)","Zzz… tôi đang nghỉ, đến giờ sẽ tự dậy làm việc."],
  nghi:["Đang suy nghĩ","Đang nghĩ xem hướng nào kiếm ra tiền…"],lam:["Đang làm việc","Đang làm: "]};
-function lich(now){ // lượt chạy theo lịch: phút 23 của các giờ chia hết cho 3 (UTC); mỗi lượt ước tối đa ~40 phút
- var d=new Date(now),b=Date.UTC(d.getUTCFullYear(),d.getUTCMonth(),d.getUTCDate(),Math.floor(d.getUTCHours()/3)*3,23);
- if(b>now)b-=3*3600e3;return{bat:b,tiep:b+3*3600e3};}
+function lich(now){ // lượt chạy theo lịch: phút 17 của các giờ 0,6,12,18 (UTC); mỗi lượt ước tối đa ~40 phút
+ var d=new Date(now),b=Date.UTC(d.getUTCFullYear(),d.getUTCMonth(),d.getUTCDate(),Math.floor(d.getUTCHours()/6)*6,17);
+ if(b>now)b-=6*3600e3;return{bat:b,tiep:b+6*3600e3};}
 function tick(){
  var now=Date.now(),l=lich(now),t="ngu",bong;
  if(D.dung){t="ngu";bong=D.dung;}
