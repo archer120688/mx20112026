@@ -2,8 +2,7 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (14:21 22/11) Thầy Thành đăng bài ra mắt dự án lên Facebook (đã có nội dung lượt trước) và bổ sung link trang donate vào bài viết.
-- (14:21 22/11) Thầy tạo một file Google Sheets trống, đổi tên thành 'Mẫu dự toán sửa nhà DIY', chia sẻ chế độ 'Ai có link đều có thể xem', rồi dán link vào bài đăng tiếp theo.
+- (20:04 22/11) Thầy Thành đăng bài viết (kịch bản phía trên) lên Facebook cá nhân hoặc nhóm DIY. Nếu ai hỏi xin bảng tính, thầy gửi link Google Sheets (đã tạo) cho họ.
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
