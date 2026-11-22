@@ -5,3 +5,5 @@ giờ · đã làm gì · bằng chứng · việc tiếp theo
 08:15 22/11 · làm tiếp · gemini/gemini-3.8-flash · 15:10 22/11 · làm tiếp trong ngày: giải quyết việc số 3 tồn đọng trong bảng việc · Đã viết xong bài đăng công khai giới thiệu dự án chi tiết, minh bạch · Lượt sau: triển khai bảng tính dự toán vật tư DIY (#6).
 14:21 22/11 · làm tiếp · gemini/gemini-3.1-flash-lite · đã thiết kế bảng dự toán vật tư DIY · san_pham đã có cấu trúc bảng mẫu · Lượt sau: soạn kịch bản giới thiệu bảng tính để đăng bài.
 20:04 22/11 · làm tiếp · gemini/gemini-3.1-flash-lite · 15:20 22/11 · soạn kịch bản bài đăng tặng bảng tính · sản phẩm mới dưới đây · Lượt sau: chờ thầy đăng bài và theo dõi số lượt tải
+01:56 23/11 · ngày mới · gemini/gemini-3.1-flash-lite · 23/11 · phân tích xu hướng người dùng lớn tuổi · gemini/gemini-3.1-flash · soạn nội dung hướng dẫn sử dụng điện thoại.
+01:56 23/11 · ngày mới · gemini/gemini-3.1-flash-lite · 23/11 · cập nhật sản phẩm · bảng việc đã được dọn sạch các mục cũ · chuẩn bị thí nghiệm mới.

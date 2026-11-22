@@ -2,7 +2,8 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (20:04 22/11) Thầy Thành đăng bài viết (kịch bản phía trên) lên Facebook cá nhân hoặc nhóm DIY. Nếu ai hỏi xin bảng tính, thầy gửi link Google Sheets (đã tạo) cho họ.
+- (01:56 23/11) Thầy Thành đăng bài viết 'Hướng dẫn người lớn tuổi dùng điện thoại' lên Facebook.
+- (01:56 23/11) Thầy Thành dán [LINK] tiếp thị liên kết ốp lưng điện thoại/kính cường lực vào vị trí đã để sẵn.
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
@@ -14,7 +15,7 @@ Việc cố định:
 
 ## Hướng đang đi
 <!-- AUTO:HUONG:BAT-DAU -->
-- (2026-11-22) Thí nghiệm: Đăng bài tuyển chọn 5 món DIY sửa nhà hạt dẻ trước Black Friday. Việc cụ thể: Viết hoàn chỉnh một bài đăng chia sẻ mẹo tự sửa đồ và giới thiệu 5 món đồ gia dụng nhỏ kèm vị trí [LINK] để thầy dán link tiếp thị liên kết Shopee.. Đo bằng: Số lượt click vào link affiliate hoặc số lượt tương tác bài viết (kỳ vọng ≥ 5 lượt bấm)
+- (2026-11-23) Thí nghiệm: Cẩm nang điện thoại cho người lớn tuổi. Việc cụ thể: Viết bài hướng dẫn chi tiết cách cài đặt cỡ chữ to trên Android/iPhone cho người lớn tuổi.. Đo bằng: Số lượt tương tác và số người hỏi xin hướng dẫn thêm (kỳ vọng >= 3)
 <!-- AUTO:HUONG:KET-THUC -->
 
 Thầy Thành giao hai việc làm điểm xuất phát. Làm video không bắt buộc. Agent được nghĩ ra hướng thứ ba, thứ tư, miễn hợp pháp và miễn phí.
