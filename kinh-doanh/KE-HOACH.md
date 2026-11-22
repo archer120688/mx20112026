@@ -2,8 +2,7 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (01:56 22/11) Thầy mở Shopee Affiliate, tạo 5 link tiếp thị cho các từ khoá: (1) keo vá tường, (2) băng keo chống thấm nhôm, (3) bút thử điện không tiếp xúc, (4) bộ vít đa năng, (5) dây thông cống lò xo.
-- (01:56 22/11) Thầy thay 5 mã [LINK] trong bài viết ở phần san_pham rồi đăng bài lên trang cá nhân hoặc Fanpage (mất khoảng 7-10 phút).
+- (08:15 22/11) Thầy Thành copy bài viết ra mắt trong san_pham, thay link trang dự án vào chỗ [DÁN_LINK_TRANG_DỰ_ÁN_TẠI_ĐÂY] và đăng lên Facebook cá nhân (mất khoảng 3-5 phút).
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
