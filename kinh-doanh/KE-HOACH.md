@@ -2,7 +2,8 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (08:15 22/11) Thầy Thành copy bài viết ra mắt trong san_pham, thay link trang dự án vào chỗ [DÁN_LINK_TRANG_DỰ_ÁN_TẠI_ĐÂY] và đăng lên Facebook cá nhân (mất khoảng 3-5 phút).
+- (14:21 22/11) Thầy Thành đăng bài ra mắt dự án lên Facebook (đã có nội dung lượt trước) và bổ sung link trang donate vào bài viết.
+- (14:21 22/11) Thầy tạo một file Google Sheets trống, đổi tên thành 'Mẫu dự toán sửa nhà DIY', chia sẻ chế độ 'Ai có link đều có thể xem', rồi dán link vào bài đăng tiếp theo.
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
