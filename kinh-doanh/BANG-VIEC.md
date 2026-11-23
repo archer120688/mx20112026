@@ -13,9 +13,10 @@ LUẬT:
 | 7 | Theo dõi số lượt click link dụng cụ sửa nhà » kiểm tra báo cáo affiliate sau 2 ngày đăng bài | Ý tưởng | số việc làm xong | 01:56 22/11 | 25/11 | lượt tự động 2026-11-22 |
 | 8 | Tạo bảng mẫu Google Sheets dự toán sửa nhà » mẫu vật tư tự tính tiền xin donate tải về | Ý tưởng | số việc làm xong | 08:15 22/11 | 25/11 | lượt tự động 2026-11-22 |
 | 10 | Soạn bài đăng chia sẻ bảng dự toán » viết nội dung kịch bản để thầy đăng Facebook | Ý tưởng | số việc làm xong | 20:04 22/11 | 25/11 | lượt tự động 2026-11-22 |
-| 11 | Soạn bài hướng dẫn điện thoại » Viết chi tiết cách tăng cỡ chữ và bảo mật máy | Ý tưởng | số việc làm xong | 01:56 23/11 | 26/11 | lượt tự động 2026-11-23 |
 | 12 | Tìm kiếm phụ kiện điện thoại » Tìm link sản phẩm giá tốt trên Shopee để gắn | Ý tưởng | số việc làm xong | 01:56 23/11 | 26/11 | lượt tự động 2026-11-23 |
 | 13 | Đo lường hiệu quả bài viết » Kiểm tra số lượt click sau 24h đăng bài | Ý tưởng | số việc làm xong | 01:56 23/11 | 26/11 | lượt tự động 2026-11-23 |
+| 14 | Đo lường tương tác » Kiểm tra số lượt tiếp cận sau 24h | Ý tưởng | số việc làm xong | 08:23 23/11 | 26/11 | lượt tự động 2026-11-23 |
+| 15 | Tìm link Shopee » Tìm ốp lưng chống sốc giá rẻ | Ý tưởng | số việc làm xong | 08:23 23/11 | 26/11 | lượt tự động 2026-11-23 |
 
 ## ĐANG LÀM
 | # | Việc | Bắt đầu | Ghi chú |
@@ -24,6 +25,7 @@ LUẬT:
 ## XONG (mới nhất ở trên)
 | # | Việc | Xong lúc | Bằng chứng | Kết quả |
 |---|---|---|---|---|
+| 11 | Soạn bài hướng dẫn điện thoại » Viết chi tiết cách tăng cỡ chữ và bảo mật máy | 08:23 23/11 | Đã soạn xong bài viết hướng dẫn người lớn tuổi trong mục san_pham | làm trong lượt tự động |
 | 5 | Nghĩ cách đưa người thật vào trang donate » chỉ ở nơi của dự án, không spam | 01:56 23/11 | Đã soạn nội dung bài viết đánh vào nhu cầu thực tế của người dùng lớn tuổi | làm trong lượt tự động |
 | 9 | Soạn bài đăng chia sẻ bảng dự toán » Viết nội dung thu hút người dùng tải bảng tính | 20:04 22/11 | Đã soạn kịch bản chi tiết trong mục sản phẩm | làm trong lượt tự động |
 | 4 | Gom việc cần thầy thành một bản ngắn » cập nhật mục Cần thầy trong KE-HOACH.md | 14:21 22/11 | Đã cập nhật mục Cần thầy trong KE-HOACH.md. | làm trong lượt tự động |

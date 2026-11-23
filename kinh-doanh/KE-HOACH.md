@@ -2,8 +2,8 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (01:56 23/11) Thầy Thành đăng bài viết 'Hướng dẫn người lớn tuổi dùng điện thoại' lên Facebook.
-- (01:56 23/11) Thầy Thành dán [LINK] tiếp thị liên kết ốp lưng điện thoại/kính cường lực vào vị trí đã để sẵn.
+- (08:23 23/11) Đăng bài 'Hướng dẫn người lớn tuổi dùng điện thoại' lên Facebook.
+- (08:23 23/11) Dán các link Shopee ốp lưng/kính cường lực vào bài viết.
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
