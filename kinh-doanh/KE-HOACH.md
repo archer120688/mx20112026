@@ -2,8 +2,7 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (14:42 23/11) Đăng bài viết về phụ kiện điện thoại lên Facebook cá nhân hoặc nhóm phù hợp.
-- (14:42 23/11) Gắn các link Shopee tương ứng vào các vị trí [LINK] trong bài viết.
+- (20:28 23/11) Đăng bài có tiêu đề 'Combo An tâm kỹ thuật số' lên Facebook/nhóm cộng đồng, kèm theo các link affiliate tương ứng thay cho chỗ [LINK].
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:

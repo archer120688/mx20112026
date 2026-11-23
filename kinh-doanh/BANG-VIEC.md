@@ -18,6 +18,8 @@ LUẬT:
 | 15 | Tìm link Shopee » Tìm ốp lưng chống sốc giá rẻ | Ý tưởng | số việc làm xong | 08:23 23/11 | 26/11 | lượt tự động 2026-11-23 |
 | 16 | Đo lường hiệu quả bài viết » Kiểm tra số lượt click link sản phẩm mới sau 24h | Ý tưởng | số việc làm xong | 14:42 23/11 | 26/11 | lượt tự động 2026-11-23 |
 | 17 | Tìm kiếm thêm link Shopee » Tìm kiếm các mẫu ốp lưng chống sốc giá tốt cho các dòng máy phổ biến | Ý tưởng | số việc làm xong | 14:42 23/11 | 26/11 | lượt tự động 2026-11-23 |
+| 18 | Đăng bài gợi ý phụ kiện lên Facebook » Thầy Thành đăng bài đã soạn | Ý tưởng | số việc làm xong | 20:28 23/11 | 26/11 | lượt tự động 2026-11-23 |
+| 19 | Gắn link Shopee vào bài » Thầy Thành thay thế [LINK] bằng link affiliate | Ý tưởng | số việc làm xong | 20:28 23/11 | 26/11 | lượt tự động 2026-11-23 |
 
 ## ĐANG LÀM
 | # | Việc | Bắt đầu | Ghi chú |
