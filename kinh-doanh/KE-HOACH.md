@@ -2,8 +2,8 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (08:23 23/11) Đăng bài 'Hướng dẫn người lớn tuổi dùng điện thoại' lên Facebook.
-- (08:23 23/11) Dán các link Shopee ốp lưng/kính cường lực vào bài viết.
+- (14:42 23/11) Đăng bài viết về phụ kiện điện thoại lên Facebook cá nhân hoặc nhóm phù hợp.
+- (14:42 23/11) Gắn các link Shopee tương ứng vào các vị trí [LINK] trong bài viết.
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
