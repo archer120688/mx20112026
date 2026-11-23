@@ -10,3 +10,4 @@ giờ · đã làm gì · bằng chứng · việc tiếp theo
 08:23 23/11 · làm tiếp · gemini/gemini-3.1-flash-lite · đã viết nội dung chi tiết bài hướng dẫn người lớn tuổi dùng điện thoại · sản phẩm đã tạo · Lượt sau: chờ thầy đăng bài và đo lường tương tác.
 14:42 23/11 · làm tiếp · gemini/gemini-3.1-flash-lite · 08:45 23/11 · soạn danh sách gợi ý phụ kiện điện thoại bảo vệ máy cho người lớn · danh sách trong sản phẩm · Lượt sau: chờ thầy đăng bài và theo dõi số lượt click.
 20:28 23/11 · làm tiếp · gemini/gemini-3.1-flash-lite · 14:42 23/11 · soạn danh sách ốp lưng và hướng dẫn cài đặt · sản phẩm mới · Đợi thầy đăng bài và theo dõi tương tác
+02:09 24/11 · ngày mới · gemini/gemini-3.1-flash-lite · Phân tích nhu cầu sinh viên mùa cuối năm và mùa tuyển dụng · đã soạn bộ khung CV · lượt sau sẽ theo dõi phản hồi bài đăng.

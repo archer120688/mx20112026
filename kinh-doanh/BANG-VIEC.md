@@ -20,6 +20,8 @@ LUẬT:
 | 17 | Tìm kiếm thêm link Shopee » Tìm kiếm các mẫu ốp lưng chống sốc giá tốt cho các dòng máy phổ biến | Ý tưởng | số việc làm xong | 14:42 23/11 | 26/11 | lượt tự động 2026-11-23 |
 | 18 | Đăng bài gợi ý phụ kiện lên Facebook » Thầy Thành đăng bài đã soạn | Ý tưởng | số việc làm xong | 20:28 23/11 | 26/11 | lượt tự động 2026-11-23 |
 | 19 | Gắn link Shopee vào bài » Thầy Thành thay thế [LINK] bằng link affiliate | Ý tưởng | số việc làm xong | 20:28 23/11 | 26/11 | lượt tự động 2026-11-23 |
+| 20 | Soạn danh sách 10 món quà Tết giá rẻ » Liệt kê sản phẩm Shopee phù hợp sinh viên | Ý tưởng | số việc làm xong | 02:09 24/11 | 27/11 | lượt tự động 2026-11-24 |
+| 21 | Lập bảng check-list về quê đón Tết » Tạo mẫu Google Sheet đơn giản cho sinh viên | Ý tưởng | số việc làm xong | 02:09 24/11 | 27/11 | lượt tự động 2026-11-24 |
 
 ## ĐANG LÀM
 | # | Việc | Bắt đầu | Ghi chú |

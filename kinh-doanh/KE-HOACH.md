@@ -2,7 +2,8 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (20:28 23/11) Đăng bài có tiêu đề 'Combo An tâm kỹ thuật số' lên Facebook/nhóm cộng đồng, kèm theo các link affiliate tương ứng thay cho chỗ [LINK].
+- (02:09 24/11) Thầy Thành đăng nội dung hướng dẫn viết CV lên Facebook/Nhóm sinh viên
+- (02:09 24/11) Thầy chuẩn bị link affiliate Shopee cho các dòng laptop/phụ kiện hỗ trợ học tập (thay vào [LINK-AFFILIATE-CHUA-CO])
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
@@ -14,7 +15,7 @@ Việc cố định:
 
 ## Hướng đang đi
 <!-- AUTO:HUONG:BAT-DAU -->
-- (2026-11-23) Thí nghiệm: Cẩm nang điện thoại cho người lớn tuổi. Việc cụ thể: Viết bài hướng dẫn chi tiết cách cài đặt cỡ chữ to trên Android/iPhone cho người lớn tuổi.. Đo bằng: Số lượt tương tác và số người hỏi xin hướng dẫn thêm (kỳ vọng >= 3)
+- (2026-11-24) Thí nghiệm: Bộ khung CV 'Chuẩn cho người mới'. Việc cụ thể: Viết một bài hướng dẫn 5 bước điền CV và cung cấp mẫu Markdown chuẩn. Đo bằng: Số lượt người bấm vào xem mẫu hoặc hỏi xin file
 <!-- AUTO:HUONG:KET-THUC -->
 
 Thầy Thành giao hai việc làm điểm xuất phát. Làm video không bắt buộc. Agent được nghĩ ra hướng thứ ba, thứ tư, miễn hợp pháp và miễn phí.
