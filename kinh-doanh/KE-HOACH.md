@@ -2,7 +2,7 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (20:24 24/11) **AI chưa chạy được**: Dịch vụ AI lỗi hoặc mạng lỗi; lượt sau tự thử lại.
+- (02:06 25/11) **AI chưa chạy được**: Hết lượt miễn phí hôm nay (mã 429). Thêm khoá dự phòng (GROQ_API_KEY hoặc OPENROUTER_API_KEY) hoặc chờ sang ngày.
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:

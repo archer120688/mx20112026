@@ -1,11 +1,23 @@
 # Trạng thái lượt gần nhất (máy tự ghi, thầy mở tệp này để biết AI có đang làm việc không)
 
-- Lúc: 20:24 24/11 (giờ Việt Nam)
-- Chế độ: làm tiếp trong ngày
+- Lúc: 02:06 25/11 (giờ Việt Nam)
+- Chế độ: ngày mới
 - Kết quả: **THẤT BẠI**
-- Số lần gọi API trong lượt: 8
-- Ghi chú: Dịch vụ AI lỗi hoặc mạng lỗi; lượt sau tự thử lại.
+- Số lần gọi API trong lượt: 11
+- Ghi chú: Hết lượt miễn phí hôm nay (mã 429). Thêm khoá dự phòng (GROQ_API_KEY hoặc OPENROUTER_API_KEY) hoặc chờ sang ngày.
 - Các lần thử:
+  - gemini / gemini-3.8-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your p
+  - gemini / gemini-3.7-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your p
+  - gemini / gemini-3.1-flash-lite: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your p
   - gemini / gemini-3.8-flash: 503 {
   "error": {
     "code": 503,
