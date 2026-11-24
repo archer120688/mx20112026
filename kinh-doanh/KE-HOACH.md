@@ -2,7 +2,7 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (08:18 24/11) Thầy Thành đăng nội dung hướng dẫn viết CV này lên trang cá nhân hoặc nhóm sinh viên
+- (14:31 24/11) Đăng bài hướng dẫn viết CV lên Facebook/Nhóm sinh viên và chờ phản hồi
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
