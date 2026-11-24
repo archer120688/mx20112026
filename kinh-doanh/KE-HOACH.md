@@ -2,7 +2,7 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (14:31 24/11) Đăng bài hướng dẫn viết CV lên Facebook/Nhóm sinh viên và chờ phản hồi
+- (20:24 24/11) **AI chưa chạy được**: Dịch vụ AI lỗi hoặc mạng lỗi; lượt sau tự thử lại.
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:

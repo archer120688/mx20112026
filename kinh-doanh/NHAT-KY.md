@@ -14,3 +14,4 @@ giờ · đã làm gì · bằng chứng · việc tiếp theo
 08:18 24/11 · làm tiếp · gemini/gemini-3.1-flash-lite · Soạn xong hướng dẫn viết CV cho sinh viên · nội dung đầy đủ các phần cần thiết · Lượt sau: chờ thầy đăng bài và theo dõi số lượt xem.
 14:31 24/11 · làm tiếp · gemini/gemini-3.1-flash-lite · Hoàn thiện bài viết hướng dẫn viết CV chuẩn cho sinh viên mới ra trường · Đã có file Markdown · Chờ thầy đăng bài và theo dõi số lượt truy cập.
 14:31 24/11 · làm tiếp · gemini/gemini-3.1-flash-lite · Chuẩn bị thêm danh sách các món đồ công nghệ sinh viên nên săn vào dịp Black Friday · Việc lượt sau là chờ phản hồi từ bài đăng CV.
+20:24 24/11 · LỖI AI · Dịch vụ AI lỗi hoặc mạng lỗi; lượt sau tự thử lại.
