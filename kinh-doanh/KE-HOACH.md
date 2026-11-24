@@ -2,8 +2,7 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (02:09 24/11) Thầy Thành đăng nội dung hướng dẫn viết CV lên Facebook/Nhóm sinh viên
-- (02:09 24/11) Thầy chuẩn bị link affiliate Shopee cho các dòng laptop/phụ kiện hỗ trợ học tập (thay vào [LINK-AFFILIATE-CHUA-CO])
+- (08:18 24/11) Thầy Thành đăng nội dung hướng dẫn viết CV này lên trang cá nhân hoặc nhóm sinh viên
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
