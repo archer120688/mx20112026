@@ -2,7 +2,7 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (20:30 25/11) Thầy Thành vui lòng đăng bài viết phụ kiện game thủ lên Facebook dự án, thay [LINK] bằng link affiliate.
+- (02:00 26/11) **AI chưa chạy được**: Hết lượt miễn phí hôm nay (mã 429). Thêm khoá dự phòng (GROQ_API_KEY hoặc OPENROUTER_API_KEY) hoặc chờ sang ngày.
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
