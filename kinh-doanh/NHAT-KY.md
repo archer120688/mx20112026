@@ -18,3 +18,4 @@ giờ · đã làm gì · bằng chứng · việc tiếp theo
 02:06 25/11 · LỖI AI · Hết lượt miễn phí hôm nay (mã 429). Thêm khoá dự phòng (GROQ_API_KEY hoặc OPENROUTER_API_KEY) hoặc chờ sang ngày.
 08:25 25/11 · ngày mới · gemini/gemini-3.1-flash-lite · Đã hoàn thành danh sách phụ kiện cho game thủ · sản phẩm 2026-11-25-danh-sach-phu-kien-game-thu-gia-re.md · Lượt sau đợi thầy đăng bài và theo dõi số lượt click.
 14:30 25/11 · làm tiếp · gemini/gemini-3.1-flash-lite · Soạn nội dung chi tiết bài viết tiếp thị liên kết phụ kiện game thủ · đã lưu vào san_pham · Đợi thầy đăng bài và theo dõi số lượt click.
+20:30 25/11 · làm tiếp · gemini/gemini-3.1-flash-lite · Soạn nội dung chi tiết bài viết tiếp thị liên kết phụ kiện game thủ kèm hướng dẫn chọn mua · Lưu tại sản phẩm · Lượt sau: chờ thầy đăng bài và theo dõi số lượt click.
