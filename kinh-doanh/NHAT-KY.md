@@ -16,3 +16,4 @@ giờ · đã làm gì · bằng chứng · việc tiếp theo
 14:31 24/11 · làm tiếp · gemini/gemini-3.1-flash-lite · Chuẩn bị thêm danh sách các món đồ công nghệ sinh viên nên săn vào dịp Black Friday · Việc lượt sau là chờ phản hồi từ bài đăng CV.
 20:24 24/11 · LỖI AI · Dịch vụ AI lỗi hoặc mạng lỗi; lượt sau tự thử lại.
 02:06 25/11 · LỖI AI · Hết lượt miễn phí hôm nay (mã 429). Thêm khoá dự phòng (GROQ_API_KEY hoặc OPENROUTER_API_KEY) hoặc chờ sang ngày.
+08:25 25/11 · ngày mới · gemini/gemini-3.1-flash-lite · Đã hoàn thành danh sách phụ kiện cho game thủ · sản phẩm 2026-11-25-danh-sach-phu-kien-game-thu-gia-re.md · Lượt sau đợi thầy đăng bài và theo dõi số lượt click.

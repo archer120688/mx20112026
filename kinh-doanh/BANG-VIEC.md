@@ -20,8 +20,8 @@ LUẬT:
 | 17 | Tìm kiếm thêm link Shopee » Tìm kiếm các mẫu ốp lưng chống sốc giá tốt cho các dòng máy phổ biến | Ý tưởng | số việc làm xong | 14:42 23/11 | 26/11 | lượt tự động 2026-11-23 |
 | 18 | Đăng bài gợi ý phụ kiện lên Facebook » Thầy Thành đăng bài đã soạn | Ý tưởng | số việc làm xong | 20:28 23/11 | 26/11 | lượt tự động 2026-11-23 |
 | 19 | Gắn link Shopee vào bài » Thầy Thành thay thế [LINK] bằng link affiliate | Ý tưởng | số việc làm xong | 20:28 23/11 | 26/11 | lượt tự động 2026-11-23 |
-| 20 | Soạn danh sách 10 món quà Tết giá rẻ » Liệt kê sản phẩm Shopee phù hợp sinh viên | Ý tưởng | số việc làm xong | 02:09 24/11 | 27/11 | lượt tự động 2026-11-24 |
 | 21 | Lập bảng check-list về quê đón Tết » Tạo mẫu Google Sheet đơn giản cho sinh viên | Ý tưởng | số việc làm xong | 02:09 24/11 | 27/11 | lượt tự động 2026-11-24 |
+| 22 | Đăng bài gợi ý phụ kiện game lên trang dự án » Thầy Thành đăng bài đã soạn | Ý tưởng | số việc làm xong | 08:25 25/11 | 28/11 | lượt tự động 2026-11-25 |
 
 ## ĐANG LÀM
 | # | Việc | Bắt đầu | Ghi chú |
@@ -30,6 +30,7 @@ LUẬT:
 ## XONG (mới nhất ở trên)
 | # | Việc | Xong lúc | Bằng chứng | Kết quả |
 |---|---|---|---|---|
+| 20 | Soạn danh sách 10 món quà Tết giá rẻ » Liệt kê sản phẩm Shopee phù hợp sinh viên | 08:25 25/11 | Đã soạn danh sách 10 món quà/phụ kiện game thủ thực tế trong mục san_pham | làm trong lượt tự động |
 | 12 | Tìm kiếm phụ kiện điện thoại » Tìm link sản phẩm giá tốt trên Shopee để gắn | 14:42 23/11 | Đã soạn xong danh sách sản phẩm bảo vệ điện thoại trong sản phẩm | làm trong lượt tự động |
 | 11 | Soạn bài hướng dẫn điện thoại » Viết chi tiết cách tăng cỡ chữ và bảo mật máy | 08:23 23/11 | Đã soạn xong bài viết hướng dẫn người lớn tuổi trong mục san_pham | làm trong lượt tự động |
 | 5 | Nghĩ cách đưa người thật vào trang donate » chỉ ở nơi của dự án, không spam | 01:56 23/11 | Đã soạn nội dung bài viết đánh vào nhu cầu thực tế của người dùng lớn tuổi | làm trong lượt tự động |

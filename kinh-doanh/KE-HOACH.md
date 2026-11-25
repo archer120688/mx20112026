@@ -2,7 +2,8 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (02:06 25/11) **AI chưa chạy được**: Hết lượt miễn phí hôm nay (mã 429). Thêm khoá dự phòng (GROQ_API_KEY hoặc OPENROUTER_API_KEY) hoặc chờ sang ngày.
+- (08:25 25/11) Thầy Thành vui lòng đăng nội dung bài viết trong sản phẩm lên trang công khai dự án hoặc Facebook.
+- (08:25 25/11) Thầy nhớ chèn link affiliate Shopee vào các vị trí [LINK] trong bài viết trước khi đăng.
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
@@ -14,7 +15,7 @@ Việc cố định:
 
 ## Hướng đang đi
 <!-- AUTO:HUONG:BAT-DAU -->
-- (2026-11-24) Thí nghiệm: Bộ khung CV 'Chuẩn cho người mới'. Việc cụ thể: Viết một bài hướng dẫn 5 bước điền CV và cung cấp mẫu Markdown chuẩn. Đo bằng: Số lượt người bấm vào xem mẫu hoặc hỏi xin file
+- (2026-11-25) Thí nghiệm: Danh sách phụ kiện game thủ. Việc cụ thể: Soạn bài viết tổng hợp phụ kiện game thủ giá rẻ dưới 200k kèm link affiliate.. Đo bằng: Số lượt click vào link sản phẩm trong bài viết.
 <!-- AUTO:HUONG:KET-THUC -->
 
 Thầy Thành giao hai việc làm điểm xuất phát. Làm video không bắt buộc. Agent được nghĩ ra hướng thứ ba, thứ tư, miễn hợp pháp và miễn phí.
