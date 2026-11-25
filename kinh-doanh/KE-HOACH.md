@@ -2,8 +2,7 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (08:25 25/11) Thầy Thành vui lòng đăng nội dung bài viết trong sản phẩm lên trang công khai dự án hoặc Facebook.
-- (08:25 25/11) Thầy nhớ chèn link affiliate Shopee vào các vị trí [LINK] trong bài viết trước khi đăng.
+- (14:30 25/11) Thầy Thành vui lòng đăng bài viết trong phần sản phẩm lên Facebook dự án, đừng quên chèn link Shopee vào các vị trí [LINK].
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
