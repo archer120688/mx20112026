@@ -1,11 +1,12 @@
 name: chay-luot
 on:
   schedule:
-    - cron: '17 0,6,12,18 * * *'   # 4 lượt/ngày (giờ UTC) = 07:17, 13:17, 19:17, 01:17 giờ Việt Nam
-  workflow_dispatch:                # bấm tay: tab Actions → chay-luot → Run workflow
+    - cron: '0 10 * * *'        # 17:00 VN: kết quả miền Nam
+    - cron: '0 11 * * *'        # 18:00 VN: miền Trung
+    - cron: '20 12 * * *'       # 19:20 VN: miền Bắc + dự đoán ngày mai
+  workflow_dispatch:             # bấm tay: tab Actions → chay-luot → Run workflow
 permissions:
   contents: write
-  models: read                      # cho phép dùng GitHub Models miễn phí làm AI dự phòng
 concurrency:
   group: aiauto
   cancel-in-progress: false
@@ -13,19 +14,22 @@ concurrency:
 jobs:
   luot:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Cài công cụ
+        run: |
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          npm install -g @google/gemini-cli
       - name: Chạy một lượt
         env:
-          TZ: Asia/Ho_Chi_Minh                      # ngày trong nhật ký tính theo giờ Việt Nam
-          AGENT: api
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}             # tuỳ chọn, AI dự phòng miễn phí
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }} # tuỳ chọn
-          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}       # tuỳ chọn
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # tuỳ chọn, Claude KHÔNG có gói miễn phí
-          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}      # AI dự phòng miễn phí của GitHub
+          AGENT: gemini
+          HAN: '2400'
+          VONG_TOI_DA: '2'          # vòng 2 chỉ để thử lại nếu vòng 1 lỗi; xong việc thì tự dừng
           VI_CHINH_SACH: chinh-sach-github.json
           KHOA_LUOT: /tmp/aiauto-khoa
           HOOK_TRUOC_AGENT: python3 cong-cu/bao-ve-so.py chup
@@ -33,31 +37,22 @@ jobs:
         run: bash chay-luot.sh
       - name: In nhật ký lượt (để thầy đọc trong tab Actions)
         if: always()
-        run: |
-          cat nhat-ky/*.log 2>/dev/null || true
-          echo ---; cat kinh-doanh/TRANG-THAI-LUOT.md 2>/dev/null || true
+        run: cat nhat-ky/*.log 2>/dev/null || true
       - name: Lưu kết quả vào repo
         env:
-          TZ: Asia/Ho_Chi_Minh
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           git config user.name "ai-kiem-tien-bot"
           git config user.email "bot@users.noreply.github.com"
           git add -A kinh-doanh ra
           [ -f du-lieu/so-cai.db ] && git add -f du-lieu/so-cai.db
-          for K in "$GEMINI_API_KEY" "$GROQ_API_KEY" "$OPENROUTER_API_KEY" "$MISTRAL_API_KEY" "$ANTHROPIC_API_KEY"; do
-            if [ ${#K} -ge 8 ] && git diff --cached | grep -qF -- "$K"; then
-              echo "KHOÁ LỘ trong thay đổi sắp commit — dừng"; exit 1
-            fi
-          done
-          git commit -m "lượt $(date '+%F %H:%M') giờ VN" || { echo "không có gì mới"; exit 0; }
+          if [ ${#GEMINI_API_KEY} -ge 8 ] && git diff --cached | grep -qF -- "$GEMINI_API_KEY"; then
+            echo "KHOÁ LỘ trong thay đổi sắp commit — dừng"; exit 1
+          fi
+          git commit -m "lượt $(date -u '+%F %H:%M') UTC" || { echo "không có gì mới"; exit 0; }
           git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
           git push origin "HEAD:${GITHUB_REF_NAME}"
-      - name: Gói bài đăng (video, nếu có) để thầy tải về
+      - name: Gói bài đăng (video) để thầy tải về
         uses: actions/upload-artifact@v4
         with:
           name: goi-bai-dang-${{ github.run_number }}
@@ -74,11 +69,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}      # lấy commit mới nhất mà job trước vừa đẩy lên
+          fetch-depth: 0                   # cần lịch sử git để kiểm giờ nộp dự đoán
       - name: Dựng trang donate + nhật ký
         env:
           TAI_KHOAN_NHAN: ${{ secrets.TAI_KHOAN_NHAN }}
         run: |
           printf '%s' "$TAI_KHOAN_NHAN" > thay-cap/tai-khoan-nhan.json
+          python3 cong-cu/xo-so.py cham || true
           python3 cong-cu/dung-trang.py
       - uses: actions/setup-node@v4
         with:
