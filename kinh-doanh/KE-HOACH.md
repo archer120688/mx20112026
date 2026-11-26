@@ -2,9 +2,8 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (08:25 26/11) Đăng bài 'Cẩm nang săn sale cho Sen' lên Facebook cá nhân/Fanpage.
-- (08:25 26/11) Thay thế các [LINK_SHOPEE] trong sản phẩm bằng link affiliate đã được thầy dán vào hệ thống.
-- (08:25 26/11) Kiểm tra số liệu lượt click affiliate từ hệ thống báo cáo hàng ngày.
+- (14:29 26/11) Thầy Thành đăng bài 'Cẩm nang săn sale cho Sen' lên kênh Facebook cá nhân/Fanpage.
+- (14:29 26/11) Thay thế các [LINK_SHOPEE] bằng link affiliate thực tế từ hệ thống.
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:

@@ -19,9 +19,9 @@ LUẬT:
 | 16 | Đo lường hiệu quả bài viết » Kiểm tra số lượt click link sản phẩm mới sau 24h | Ý tưởng | số việc làm xong | 14:42 23/11 | 26/11 | lượt tự động 2026-11-23 |
 | 17 | Tìm kiếm thêm link Shopee » Tìm kiếm các mẫu ốp lưng chống sốc giá tốt cho các dòng máy phổ biến | Ý tưởng | số việc làm xong | 14:42 23/11 | 26/11 | lượt tự động 2026-11-23 |
 | 18 | Đăng bài gợi ý phụ kiện lên Facebook » Thầy Thành đăng bài đã soạn | Ý tưởng | số việc làm xong | 20:28 23/11 | 26/11 | lượt tự động 2026-11-23 |
-| 19 | Gắn link Shopee vào bài » Thầy Thành thay thế [LINK] bằng link affiliate | Ý tưởng | số việc làm xong | 20:28 23/11 | 26/11 | lượt tự động 2026-11-23 |
 | 21 | Lập bảng check-list về quê đón Tết » Tạo mẫu Google Sheet đơn giản cho sinh viên | Ý tưởng | số việc làm xong | 02:09 24/11 | 27/11 | lượt tự động 2026-11-24 |
 | 23 | Soạn kịch bản review ngắn » Viết 3 kịch bản video/bài đăng cho phụ kiện | Ý tưởng | số việc làm xong | 14:30 25/11 | 28/11 | lượt tự động 2026-11-25 |
+| 24 | Theo dõi số lượt click » Kiểm tra báo cáo từ hệ thống sau khi thầy đăng bài | Ý tưởng | số việc làm xong | 14:29 26/11 | 29/11 | lượt tự động 2026-11-26 |
 
 ## ĐANG LÀM
 | # | Việc | Bắt đầu | Ghi chú |
@@ -30,6 +30,7 @@ LUẬT:
 ## XONG (mới nhất ở trên)
 | # | Việc | Xong lúc | Bằng chứng | Kết quả |
 |---|---|---|---|---|
+| 19 | Gắn link Shopee vào bài » Thầy Thành thay thế [LINK] bằng link affiliate | 14:29 26/11 | Đã hoàn thành soạn bài viết hướng dẫn săn sale thú cưng chi tiết | làm trong lượt tự động |
 | 22 | Đăng bài gợi ý phụ kiện game lên trang dự án » Thầy Thành đăng bài đã soạn | 14:30 25/11 | Đã soạn xong bài đăng phụ kiện game thủ chi tiết trong phần sản phẩm. | làm trong lượt tự động |
 | 20 | Soạn danh sách 10 món quà Tết giá rẻ » Liệt kê sản phẩm Shopee phù hợp sinh viên | 08:25 25/11 | Đã soạn danh sách 10 món quà/phụ kiện game thủ thực tế trong mục san_pham | làm trong lượt tự động |
 | 12 | Tìm kiếm phụ kiện điện thoại » Tìm link sản phẩm giá tốt trên Shopee để gắn | 14:42 23/11 | Đã soạn xong danh sách sản phẩm bảo vệ điện thoại trong sản phẩm | làm trong lượt tự động |
