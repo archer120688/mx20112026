@@ -22,7 +22,6 @@ jobs:
           node-version: 22
       - name: Cài công cụ
         run: |
-          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
           npm install -g @google/gemini-cli
       - name: Chạy một lượt
         env:
