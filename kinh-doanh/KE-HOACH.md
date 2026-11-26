@@ -2,7 +2,9 @@
 
 ## Cần thầy
 <!-- AUTO:CAN-THAY:BAT-DAU -->
-- (02:00 26/11) **AI chưa chạy được**: Hết lượt miễn phí hôm nay (mã 429). Thêm khoá dự phòng (GROQ_API_KEY hoặc OPENROUTER_API_KEY) hoặc chờ sang ngày.
+- (08:25 26/11) Đăng bài 'Cẩm nang săn sale cho Sen' lên Facebook cá nhân/Fanpage.
+- (08:25 26/11) Thay thế các [LINK_SHOPEE] trong sản phẩm bằng link affiliate đã được thầy dán vào hệ thống.
+- (08:25 26/11) Kiểm tra số liệu lượt click affiliate từ hệ thống báo cáo hàng ngày.
 <!-- AUTO:CAN-THAY:KET-THUC -->
 
 Việc cố định:
@@ -14,7 +16,7 @@ Việc cố định:
 
 ## Hướng đang đi
 <!-- AUTO:HUONG:BAT-DAU -->
-- (2026-11-25) Thí nghiệm: Danh sách phụ kiện game thủ. Việc cụ thể: Soạn bài viết tổng hợp phụ kiện game thủ giá rẻ dưới 200k kèm link affiliate.. Đo bằng: Số lượt click vào link sản phẩm trong bài viết.
+- (2026-11-26) Thí nghiệm: Danh sách mua sắm phụ kiện thú cưng. Việc cụ thể: Soạn danh sách gợi ý 10 món đồ thú cưng thiết thực, giá dưới 150k cho mùa sale.. Đo bằng: Số lượt click vào các link affiliate trong bài đăng.
 <!-- AUTO:HUONG:KET-THUC -->
 
 Thầy Thành giao hai việc làm điểm xuất phát. Làm video không bắt buộc. Agent được nghĩ ra hướng thứ ba, thứ tư, miễn hợp pháp và miễn phí.
