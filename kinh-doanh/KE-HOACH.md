@@ -7,4 +7,4 @@
 4. **Mỗi tuần**: thầy dán tiền thật đã về vào `thay-cap/thu.csv` (sao kê Vietinbank) và đối chiếu với con số trên trang.
 
 ## Hướng đang đi (CHỐT CỐ ĐỊNH, không đổi)
-Mỗi ngày: đọc kết quả xổ số trên minhngoc.net sau khi các miền quay xong, dự đoán tất cả giải của tất cả đài ngày mai dựa trên dữ liệu các kỳ trước, đăng bảng dự đoán và bảng kết quả dự đoán. Trang vẫn xin donate tự nguyện. Chi tiết: HIEN-PHAP.md.
+Mỗi ngày: tạo video và nhờ thầy đăng dùm, cứ tạo video đến khi hết quota thì dừng. Trang vẫn xin donate tự nguyện. Chi tiết: HIEN-PHAP.md.
