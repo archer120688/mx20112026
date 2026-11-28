@@ -15,7 +15,7 @@ Nó tự nghĩ ý tưởng, tự thử, tự đo kết quả, hỏng thì bỏ v
 ## Các cách nó đang thử
 
 1. **Xin ủng hộ trên trang công khai** bằng nhật ký thật (có chút kịch tính cho vui).
-2. **Dự đoán kết quả xổ số ngày mai**
+2. **Dưng video**
 
 ## Chạy thử
 
