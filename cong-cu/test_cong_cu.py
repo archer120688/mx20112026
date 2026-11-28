@@ -14,6 +14,7 @@ def nap(ten, tep):
 
 kb = nap("kiem_bai", "cong-cu/kiem-bai.py")
 dt = nap("dung_trang", "cong-cu/dung-trang.py")
+qb = nap("quang_ba", "cong-cu/quang-ba.py")
 nt = nap("nhap_thu", "kiem-soat/nhap-thu.py")
 bv = nap("bao_ve_so", "cong-cu/bao-ve-so.py")
 
@@ -70,21 +71,55 @@ class TestNhapThu(unittest.TestCase):
 
 
 class TestTrang(unittest.TestCase):
-    TK = {"ma_ngan_hang": "vcb", "so_tai_khoan": "123", "ten_chu_tai_khoan": "NGUYEN VAN A", "muc_dich": "Duy trì dự án"}
+    KENH = {"facebook_link": "https://www.facebook.com/share/19UdefbYnF/", "youtube_link": "ĐIỀN: dán link", "facebook_nhung": "",
+            "youtube_kenh_id": ""}
+    BAI = [("2026-11-29", "Mời <b>bạn</b> ghé", ["Đoạn một", "Đoạn hai"], "Mời bạn ghé\n\nĐoạn một")]
 
-    def test_chua_dien(self):
-        with self.assertRaises(ValueError):
-            dt.kiem_tra_tai_khoan(dict(self.TK, muc_dich="ĐIỀN: gì đó"))
-        dt.kiem_tra_tai_khoan(self.TK)
-
-    def test_loc_va_dung(self):
+    def test_loc(self):
         self.assertNotIn("0912345678", dt.loc("gọi 0912345678 hoặc a@b.com ở thay-cap/thu.csv"))
-        so = dict(thu=62000, donate=50000, shopee=12000, ngay_chay=3, ngay_khong_thu=0)
-        h = dt.dung(self.TK, so, [("2026-11-20", "Ngày <1>", ["làm <b>x</b>"])], "abc")
-        self.assertIn("62.000đ", h)
-        self.assertNotIn("<b>x</b>", h)
-        self.assertIn("img.vietqr.io/image/vcb-123", h)
-        self.assertIn("hoa hồng", h)
+
+    def test_chua_co_youtube(self):
+        h = dt.dung(self.KENH, self.BAI)
+        self.assertIn("Mỗi ngày đều ra video mới", h)
+        self.assertIn("share/19UdefbYnF", h)
+        self.assertNotIn("Mở kênh YouTube", h)
+        self.assertNotIn("<b>bạn</b>", h)
+
+    def test_co_youtube_va_nhung(self):
+        k = dict(self.KENH, youtube_link="https://www.youtube.com/@abc", youtube_kenh_id="UC" + "a" * 22,
+                 facebook_nhung="https://www.facebook.com/tentrang")
+        h = dt.dung(k, [])
+        self.assertIn("https://www.youtube.com/@abc", h)
+        self.assertIn("list=UU" + "a" * 22, h)
+        self.assertIn("plugins/page.php", h)
+
+    def test_link_hong(self):
+        with self.assertRaises(ValueError):
+            dt.dung(dict(self.KENH, facebook_link="ĐIỀN"), [])
+
+
+class TestQuangBa(unittest.TestCase):
+    K = {"facebook_link": "https://www.facebook.com/share/19UdefbYnF/", "youtube_link": "", "mo_ta": "", "facebook_nhung": "",
+         "youtube_kenh_id": ""}
+    THAN = "Bạn có từng bỏ lỡ một video hay chỉ vì quên theo dõi trang không? Mỗi ngày trang đều ra video mới, bạn ghé xem một chút nhé."
+
+    def bai(self, than=None, tieu="Đừng lỡ video mới"):
+        return "# %s\n\n%s %s\n" % (tieu, than or self.THAN, self.K["facebook_link"])
+
+    def test_dat(self):
+        self.assertEqual(qb.loi_bai(self.bai(), self.K), [])
+
+    def test_thieu_link(self):
+        self.assertTrue(any("link Facebook" in x for x in qb.loi_bai("# Tiêu đề hay\n\n" + self.THAN, self.K)))
+
+    def test_link_la_va_cau_cam(self):
+        loi = " | ".join(qb.loi_bai(self.bai(self.THAN + " Xem ngay http://x.vn, đảm bảo 100% hay"), self.K))
+        self.assertIn("link lạ", loi)
+        self.assertIn("câu cấm", loi)
+
+    def test_khuon(self):
+        self.assertTrue(qb.loi_bai("không có tiêu đề", self.K))
+        self.assertTrue(qb.loi_bai(self.bai("Ngắn quá"), self.K))
 
 
 class TestBaoVeSo(unittest.TestCase):
