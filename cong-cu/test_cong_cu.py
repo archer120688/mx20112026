@@ -93,6 +93,16 @@ class TestTrang(unittest.TestCase):
         self.assertIn("list=UU" + "a" * 22, h)
         self.assertIn("plugins/page.php", h)
 
+    def test_donate(self):
+        tk = {"ma_ngan_hang": "970415", "so_tai_khoan": "123456789", "ten_chu_tai_khoan": "NGUYEN VAN A", "muc_dich": "Làm video"}
+        dt.kiem_tra_tai_khoan(tk)
+        h = dt.dung(self.KENH, [], tk)
+        self.assertIn("Ủng hộ", h)
+        self.assertIn("img.vietqr.io/image/970415-123456789", h)
+        self.assertNotIn("Ủng hộ", dt.dung(self.KENH, []))
+        with self.assertRaises(ValueError):
+            dt.kiem_tra_tai_khoan(dict(tk, so_tai_khoan="ĐIỀN"))
+
     def test_link_hong(self):
         with self.assertRaises(ValueError):
             dt.dung(dict(self.KENH, facebook_link="ĐIỀN"), [])
