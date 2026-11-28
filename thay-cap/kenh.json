@@ -1,0 +1,11 @@
+{
+  "_ghi_chu": "Thầy Thành điền. Agent chỉ đọc. Chỗ nào còn chữ ĐIỀN hoặc để trống thì trang tự bỏ phần đó, không báo lỗi.",
+  "facebook_link": "https://www.facebook.com/share/19UdefbYnF/",
+  "youtube_link": "https://www.youtube.com/@littlesticktales88",
+  "mo_ta": "",
+  "_mo_ta_goi_y": "Tuỳ chọn: 1-2 câu nói trang/kênh làm về chủ đề gì. Điền thì bài quảng bá sát hơn; để trống thì AI chỉ viết lời mời chung, không đoán chủ đề.",
+  "facebook_nhung": "",
+  "_facebook_nhung_goi_y": "Tuỳ chọn: link gốc của trang, dạng https://www.facebook.com/tentrang (link share/... không nhúng được). Điền thì trang hiện khung Facebook ngay trên web.",
+  "youtube_kenh_id": "",
+  "_youtube_kenh_id_goi_y": "Tuỳ chọn: mã kênh dạng UCxxxxxxxxxxxxxxxxxxxxxx (24 ký tự). Điền thì trang hiện khung video mới nhất của kênh."
+}
