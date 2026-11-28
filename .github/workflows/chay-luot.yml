@@ -1,9 +1,7 @@
 name: chay-luot
 on:
   schedule:
-    - cron: '0 10 * * *'        # 17:00 VN: kết quả miền Nam
-    - cron: '0 11 * * *'        # 18:00 VN: miền Trung
-    - cron: '20 12 * * *'       # 19:20 VN: miền Bắc + dự đoán ngày mai
+    - cron: '0 2 * * *'         # 09:00 VN: viết bài quảng bá mỗi ngày
   workflow_dispatch:             # bấm tay: tab Actions → chay-luot → Run workflow
 permissions:
   contents: write
@@ -68,13 +66,11 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.ref_name }}      # lấy commit mới nhất mà job trước vừa đẩy lên
-          fetch-depth: 0                   # cần lịch sử git để kiểm giờ nộp dự đoán
-      - name: Dựng trang donate + nhật ký
+      - name: Dựng trang quảng bá + donate
         env:
           TAI_KHOAN_NHAN: ${{ secrets.TAI_KHOAN_NHAN }}
         run: |
           printf '%s' "$TAI_KHOAN_NHAN" > thay-cap/tai-khoan-nhan.json
-          python3 cong-cu/xo-so.py cham || true
           python3 cong-cu/dung-trang.py
       - uses: actions/setup-node@v4
         with:
